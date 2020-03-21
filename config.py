@@ -12,10 +12,12 @@ class Config(object):
 
 
 class ProductionConfig(Config):
+    # wsherby-wordcount-prod
     DEBUG = False
 
 
 class StagingConfig(Config):
+    # wsherby-wordcount-stage
     DEBUG = True
     DEVELOPMENT = True
 
